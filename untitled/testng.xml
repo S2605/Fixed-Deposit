@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/s2605/IdeaProjects/untitled">
+        <classes>
+            <class name="Main_Runner.Running_Class">
+                <methods>
+                    <include name="All_Pages"/>
+                </methods>
+            </class>
+            <class name="Main_Runner.TestClass">
+                <methods>
+                    <include name="f1"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
